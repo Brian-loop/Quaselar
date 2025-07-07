@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Onest';
+    src: url(../font/Onest-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+}
+/*===================================================================================================================================================*/
+.box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1>img{
+    height: 128px;
+    width: 75px;
+}
+.box-1>h1{
+    height: 56px;
+    width: 243px;
+    font-size: 48px;
+    font-family: '';
+}
+.formulario{
+    width: 626px;
+    height: 750px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-from{
+    font-size: 16px;
+    font-family: 'Onest';
+    font-weight: 500;
+}
+.texto-imput{
+    width: 513px;
+    height: 32px;
+    background-color: rgba(248, 244, 244, 1);
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+.button-cadastre-se{
+    background-color: rgba(86, 171, 249, 1);
+    color: white;
+    height: 54px;
+    width: 306px;
+    border-radius: 50px;
+    font-size: 26px;
+    font-family: 'Onest';
+}
+.button-cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Tela{
+    display: flex;
+    justify-content: center;
+}
